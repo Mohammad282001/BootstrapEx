@@ -1,0 +1,206 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm sticky-top">
+        <div class="container ">
+            <a class="navbar-brand  " href="#">
+                <img src="img/image copy.png" class="iconImg" style="width: 70px; " alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main"
+                aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="main">
+                <ul class="navbar-nav ms-auto mb-2 mb-1g-0 text-light">
+                    <li class=" nav-item text-light">
+                        <a class="nav-link  p-lg-3 " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item  ">
+                        <a class="nav-link p-lg-3" href="#">Tools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3 " href="#">More Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3 " href="#">Community</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link p-lg-3 " href="#">About</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="mt-5 ">
+        <div class="text-center text-light mt-5">
+            <h1>
+                Welcome to Linux Tool Box
+            </h1>
+            <p class="fs-5 text-white-50 mb-4">
+                Explore a Punch of Linux tools here
+            </p>
+            <button type="button" class="btn btn-warning mb-5 btnMain">Get Starting</button>
+        </div>
+    </div>
+
+    <div class="row justify-content-center">
+        <div class="card m-4" style="width: 18rem;">
+            <img src="https://media.licdn.com/dms/image/D4D12AQHcBV2DPKl2yw/article-cover_image-shrink_600_2000/0/1706773462605?e=2147483647&v=beta&t=F4ELztMTrvBoKEOyFLNlcoHrDo-K7hqvFuOogcFrIYU"
+                class="card-img-top align-items-md-center pt-3 " alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Hashcat</h5>
+                <p class="card-text">Hashcat is a password recovery tool. It had a proprietary code base until 2015, but
+                    was then released as open source
+                    software. Versions are available for Linux, macOS, and Windows.</p>
+                <a href="#" class="btn btn-warning mb-1">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card m-4" style="width: 18rem;">
+            <img src="data:image/jpeg;base64,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"
+                class="card-img-top align-items-md-center pt-3" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">John the Ripper
+                </h5>
+                <p class="card-text">John the Ripper is a free password cracking software tool. Originally developed for
+                    the Unix operating system, it can
+                    run on fifteen different platforms.</p>
+                <a href="#" class="btn btn-warning mb-1">Go somewhere</a>
+            </div>
+        </div>
+
+        <div class="card m-4" style="width: 18rem;">
+            <img src="data:image/png;base64,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"
+                class="card-img-top align-items-md-center pt-3" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Metasploit</h5>
+                <p class="card-text">The Metasploit Project is a computer security project that provides information
+                    about security vulnerabilities and aids
+                    in penetration testing and IDS signature development. It is owned by Boston, Massachusetts-based
+                    security company
+                    Rapid7.</p>
+                <a href="#" class="btn btn-warning mb-1">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+    <div class="row justify-content-center">
+        <div class="card m-4" style="width: 18rem;">
+            <img src="https://miro.medium.com/v2/resize:fit:1080/1*Hfky8ZY_izkeUtOPWn7SnA.png"
+                class="card-img-top align-items-md-center pt-3 " alt="...">
+            <div class="card-body">
+                <h5 class="card-title">BeEF</h5>
+                <p class="card-text">BeEF is short for The Browser Exploitation Framework. It is a penetration testing
+                    tool that focuses on the web browser.</p>
+                <a href="#" class="btn btn-warning mb-1">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card m-4 " style="width: 18rem;">
+            <img src="data:image/jpeg;base64,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"
+                class="card-img-top align-items-md-center pt-3 " alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Lynis</h5>
+                <p class="card-text">Lynis is an extensible security audit tool for computer systems running Linux,
+                    FreeBSD, macOS, OpenBSD, Solaris, and
+                    other Unix derivatives. It assists system administrators and security professionals with scanning a
+                    system and its
+                    security defenses, with the final goal being system hardening.</p>
+                <a href="#" class="btn btn-warning mb-1">Go somewhere</a>
+            </div>
+        </div>
+        <div class="card m-4" style="width: 18rem;">
+            <img src="data:image/png;base64,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"
+                class="card-img-top align-items-md-center  pt-3" alt="...">
+            <div class="card-body">
+                <h5 class="card-title">Maltego</h5>
+                <p class="card-text">Maltego is link analysis software used for open-source intelligence, forensics and
+                    other investigations, originally
+                    developed by Paterva from Pretoria, South Africa</p>
+                <a href="#" class="btn btn-warning mb-1">Go somewhere</a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Remove the container if you want to extend the Footer to full width. -->
+    <div class="container my-5">
+
+        <footer class="text-white text-center text-lg-start" style="background-color: #23242a;">
+            <!-- Grid container -->
+            <div class="container p-4">
+                <!--Grid row-->
+                <div class="row mt-4">
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase mb-4">Linux Tool Box</h5>
+
+                        <p>
+
+                        </p>
+
+                    </div>
+                    <!--Grid column-->
+
+                    <!--Grid column-->
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+              
+
+                        
+                        </div>
+
+                        <ul class="fa-ul" style="margin-left: 1.65em;">
+                            <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-home"></i></span><span class="ms-2">New York, NY
+                                    10012,
+                                    US</span>
+                            </li>
+                            <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-envelope"></i></span><span
+                                    class="ms-2">info@example.com</span>
+                            </li>
+                            <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-phone"></i></span><span class="ms-2">+ 01 234 567
+                                    88</span>
+                            </li>
+                            <li class="mb-3">
+                                <span class="fa-li"><i class="fas fa-print"></i></span><span class="ms-2">+ 01 234 567
+                                    89</span>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <small>Copyright &copy;2024. LinuxToolBox. All rights reserved.</small>
+    </div>
+    <!-- Copyright -->
+    </footer>
+
+    </div>
+    <!-- End of .container -->
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

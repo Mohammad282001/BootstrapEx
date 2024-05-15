@@ -1,0 +1,45 @@
+body{
+    background-color: #1b1f23;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+
+}
+
+.navbar-nav .nav-link {
+    color: #1b1f23;
+}
+.navbar{
+    background-color: #dbb12a;
+}
+.iconImg{
+    border-radius: 2000px;
+    background-color: #1b1f23;
+
+
+}
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+
+    color: #00000088;
+}
+
+.landing{
+    background-color: #212529;
+
+}
+.card{
+    background-color: #EBC33A;
+}
+
+.btn-warning{
+    background-color: #212529;
+    color: #EBC33A;
+}
+
+.btnMain{
+    background-color: #EBC33A;
+    color: #212529;
+}
